@@ -3,7 +3,9 @@
 
 <?php $__env->startSection('content'); ?>
 <div class="container mt-2">
-    <h2>Home Page</h2>
+    <img class="w-100 img-fluid" src="images/BannerDominique.png" alt="">
+
+    <h1 class="text-center mt-2">Favorite Menu</h1>
 </div>
     
 <?php $__env->stopSection(); ?>
