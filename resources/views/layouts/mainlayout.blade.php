@@ -14,9 +14,9 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
+        <div class="collapse navbar-collapse navbarstyling" id="navbarNav">
           <ul class="navbar-nav">
-            <a class="navbar-brand logoStyling" href="#">
+            <a class="navbar-brand " href="#">
               <img src="images/Dom_Logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top ">
               Dominique99
             </a>
