@@ -10,7 +10,7 @@
     display: block;
     width: 0px;
     height: 2px;
-    background: #fec400;
+    background: #FF99CB;
     transition: 0.4s
 }
 
@@ -24,7 +24,7 @@
 .navbar-dark .navbar-nav .show>.nav-link,
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #fec400
+    color: #FF99CB
 }
 
 .nav-link {
@@ -34,4 +34,7 @@
 }
 .nav-link:hover{
     font-weight: bold;
+}
+.logoStyling{
+    font-family: "https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap";
 }
