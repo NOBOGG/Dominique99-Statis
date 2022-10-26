@@ -7,7 +7,7 @@
     <title>Dominique99 | <?php echo $__env->yieldContent('title'); ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -54,7 +54,10 @@
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
     <script src="javascript/script.js"></script>
+
+    
 </body>
 
 </html>
-<?php /**PATH D:\Xampp\htdocs\Laravel Project\webstatisDominique\resources\views/layouts/mainlayout.blade.php ENDPATH**/ ?>
+
+<?php echo $__env->make('layouts/footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\Xampp\htdocs\Laravel Project\webstatisDominique\resources\views/layouts/mainlayout.blade.php ENDPATH**/ ?>

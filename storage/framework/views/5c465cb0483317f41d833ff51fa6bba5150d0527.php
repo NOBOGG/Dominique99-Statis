@@ -142,8 +142,9 @@
     </div>
 
 
-
-
+    
 <?php $__env->stopSection(); ?>
+
+
 
 <?php echo $__env->make('layouts/mainlayout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\Xampp\htdocs\Laravel Project\webstatisDominique\resources\views/index.blade.php ENDPATH**/ ?>

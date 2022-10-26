@@ -112,6 +112,11 @@
     width: 5%;
   }
 
+  .afooter{
+    text-decoration: none;
+    color: white;
+  }
+
   @media screen and (max-width:600px) {
     .imgfooter{
             width: 15%; 
