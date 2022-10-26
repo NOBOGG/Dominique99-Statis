@@ -12,7 +12,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="card">
-                        <div class="img-wrapper"><img src="images/Dom_Logo.png" class="d-block w-100" alt="..."> </div>
+                        <div class="img-wrapper img-fluid"><img src="images/Dom_Logo.png" class="d-block w-100" alt="..."> </div>
                         <div class="card-body">
                             <h5 class="card-title">Card title 1</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of
