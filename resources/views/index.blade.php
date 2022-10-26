@@ -12,7 +12,7 @@
       <div class="carousel-inner">
           <div class="carousel-item active">
               <div class="card">
-                  <div class="img-wrapper"><img src="..." class="d-block w-100" alt="..."> </div>
+                  <div class="img-wrapper"><img src="images/Dom_Logo.png" class="d-block w-100" alt="..."> </div>
                   <div class="card-body">
                       <h5 class="card-title">Card title 1</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -118,6 +118,14 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
       </button>
+  </div>
+
+  <h1 class="text-center mt-2 sizing">Our Social Media</h1>
+  <div class="">
+    <div class="" data-mc-src="b29c1f71-822c-495b-b27c-af251a68d832#instagram"></div>
+    <div class=""><a href="https://linktr.ee/dominique99id">
+    <img class="imgsize" src="images/Dom_Logo.png" alt="order">
+    </a></div>
   </div>
     
 </div>
