@@ -54,6 +54,8 @@
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
     <script src="javascript/script.js"></script>
+
+    @extends('layouts/footer')
 </body>
 
 </html>

@@ -96,3 +96,25 @@
       margin: auto;
     }
   }
+
+  /* FOOTER CSS DISINI */
+
+  .footStyling{
+    background-color: #650975;
+  }
+  
+  .footer{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .imgfooter{
+    width: 5%;
+  }
+
+  @media screen and (max-width:600px) {
+    .imgfooter{
+            width: 15%; 
+    }
+}
+
