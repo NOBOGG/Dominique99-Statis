@@ -9,7 +9,6 @@
 
 .imgsize{
   max-width: 480px;
-  max-height: 480px;
 }
 
 .nav-item::after {
@@ -52,6 +51,9 @@
     .sizing{
             font-size: 1rem; 
     }
+    .imgsize{
+        max-width: 100%;
+      }
 }
 
 
