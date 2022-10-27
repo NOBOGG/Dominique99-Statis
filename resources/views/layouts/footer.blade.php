@@ -22,8 +22,8 @@
                 <div class="row afooter">
                     <div class="col">
                         <i class="bi bi-facebook"></i>
-                        <i class="bi bi-whatsapp"></i>
-                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-whatsapp ms-1"></i>
+                        <i class="bi bi-instagram ms-1"></i>
                     </div>
                 </div>
             </div>
