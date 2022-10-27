@@ -4,12 +4,12 @@
             <img class="img-fluid imgfooter" src="images/Dom_Logo.png" alt="" srcset="">
         </div>
         <div class="row">
-            <div class="col-4">
+            <div class="col-5">
                 <div class="row">
                     <h5>Delivery Service</h5>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-5">
                 <div class="row">
                     <h5>Alamat Toko</h5>
                 </div>
@@ -17,7 +17,7 @@
                     <h6>Jalan K.H.mansyur 55 probolinggo</h6>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-2">
                 <h5 class="me-5">Reach Us On</h5>
                 <div class="row afooter">
                     <div class="col">
