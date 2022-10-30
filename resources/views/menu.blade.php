@@ -9,7 +9,7 @@
         <div class="row d-flex justify-content-center">
             @foreach ($listMenu as $item)
 
-                <div class="card col-lg-3 col-md-3 col-sm-12 text-center mb-3 mr-2">
+                <div class="card col-lg-3 col-md-3 col-sm-12 text-center mb-3 mr-2" data-aos="zoom-in">
                     <div class="img-wrapper img-fluid"><img src="{{$item['fotoMakanan']}}" class="d-block w-100"
                             alt="..."> </div>
                     <div class="card-body">

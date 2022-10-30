@@ -24,7 +24,6 @@ class MenuController extends Controller
     }
     public function indexMenu()
     {
-
         return view(
             'menu',
             [
@@ -32,7 +31,15 @@ class MenuController extends Controller
             ]
         );
     }
-
+    public function indexDetail($id)
+    {
+        return view(
+            'detail',
+            [
+                'detailMenu' => Menu::detailMenu($id)
+            ]
+        );
+    }
     /**
      * Show the form for creating a new resource.
      *

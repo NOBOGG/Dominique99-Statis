@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MenuController;
+use App\Models\Menu;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,13 +19,7 @@ Route::get('/', [MenuController::class,'index']);
 
 Route::get('/menu', [MenuController::class,'indexMenu']);
 
-
-
-// Route::get('/{id}', function ($id) {
-//     // return view('detailMenu', [{{  }}
-//     //     'menu' => Menu::detailMenu($id)
-//     // ]);
-// });
+Route::get('/{id}', [MenuController::class,'indexDetail']);
 
 // Route::get('/', function () {
 //     return view('welcome');
