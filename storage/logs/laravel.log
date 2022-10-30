@@ -172,3 +172,23 @@
 #54 D:\\Xampp\\htdocs\\Laravel Project\\webstatisDominique\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('D:\\\\Xampp\\\\htdocs...')
 #55 {main}
 "} 
+[2022-10-30 11:20:09] local.ERROR: syntax error, unexpected token "}", expecting variable {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting variable at D:\\Xampp\\htdocs\\Laravel Project\\webstatisDominique\\app\\Models\\Menu.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2022-10-30 11:20:19] local.ERROR: syntax error, unexpected token "(", expecting variable {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"(\", expecting variable at D:\\Xampp\\htdocs\\Laravel Project\\webstatisDominique\\app\\Models\\Menu.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2022-10-30 11:20:46] local.ERROR: syntax error, unexpected token "=", expecting variable {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"=\", expecting variable at D:\\Xampp\\htdocs\\Laravel Project\\webstatisDominique\\app\\Models\\Menu.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2022-10-30 11:20:50] local.ERROR: syntax error, unexpected token "}", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \",\" or \";\" at D:\\Xampp\\htdocs\\Laravel Project\\webstatisDominique\\app\\Models\\Menu.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2022-10-30 11:20:57] local.ERROR: syntax error, unexpected token "}", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \",\" or \";\" at D:\\Xampp\\htdocs\\Laravel Project\\webstatisDominique\\app\\Models\\Menu.php:14)
+[stacktrace]
+#0 {main}
+"} 
