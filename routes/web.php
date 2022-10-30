@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MenuController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,8 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
+Route::get('/', [MenuController::class,'index']);
+
+Route::get('/menu', [MenuController::class,'indexMenu']);
+
+
+
+
+Route::get('/{id}', function ($id) {
+    // return view('detailMenu', [{{  }}
+    //     'menu' => Menu::detailMenu($id)
+    // ]);
 });
 
 // Route::get('/', function () {

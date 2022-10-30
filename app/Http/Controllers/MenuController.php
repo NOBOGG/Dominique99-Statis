@@ -15,7 +15,22 @@ class MenuController extends Controller
      */
     public function index()
     {
-        //
+        return view(
+            'index',
+            [
+                'listMenu' => Menu::index()
+            ]
+        );
+    }
+    public function indexMenu()
+    {
+
+        return view(
+            'menu',
+            [
+                'listMenu' => Menu::index()
+            ]
+        );
     }
 
     /**

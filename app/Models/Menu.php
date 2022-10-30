@@ -39,7 +39,7 @@ class Menu extends Model
             'namaMenu' => 'Mini Chiffon Hias',
             'deskripsi' => 'Kue yang sangat ringan yang dibuat dengan minyak sayur, telur, gula, tepung, baking powder, dan perasa. Bisa juga dihias sesuai request',
             'kategori' => 'Cake',
-            'fotoMakanan' => 'images/chiffon.jpeg',
+            'fotoMakanan' => 'images/chiffon.jpg',
             'menuFavorite' => 0
         ],
         [
@@ -47,7 +47,7 @@ class Menu extends Model
             'namaMenu' => 'Roll Cake Keju',
             'deskripsi' => 'Roll cake istimewah dengan isian keju yang menciptakan rasa gurih yang tidak ada duanya',
             'kategori' => 'Cake',
-            'fotoMakanan' => 'images/rollcake.jpeg',
+            'fotoMakanan' => 'images/rollcake.jpg',
             'menuFavorite' => 1
         ],
         [
@@ -80,7 +80,7 @@ class Menu extends Model
         return collect(self::$listMenu);
     }
 
-    public static function showMenu($id){
+    public static function detailMenu($id){
         return self::index()->firstWhere('id', $id);
     }
 }
