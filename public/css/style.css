@@ -48,6 +48,9 @@
             font-size: 1rem; 
     }
 }
+.fontAll{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 /* Card Slider */
@@ -56,28 +59,11 @@
   }
   .card {
     margin: 0 0.5em;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    box-shadow: 8px 8px 20px 8px rgba(22, 22, 26, 0.18);
     border: none;
   }
-  .carousel-control-prev,
-  .carousel-control-next {
-    background-color: #e1e1e1;
-    width: 6vh;
-    height: 6vh;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  @media (min-width: 768px) {
-    .carousel-item {
-      margin-right: 0;
-      flex: 0 0 33.333333%;
-      display: block;
-    }
-    .carousel-inner {
-      display: flex;
-    }
-  }
+
+  
   .card .img-wrapper {
       max-width: max-content;
       height: 17em;
@@ -88,12 +74,18 @@
   }
   .card img {
       max-height: 100%;
+      margin-top: 10px;
+      border-radius: 10px;
   }
   @media (max-width: 767px) {
     .card .img-wrapper {
-      height: 15em;
+      height: 10em;
       width: max-content;
       margin: auto;
+    }
+    .card{
+      max-width: 20em;
+      margin-bottom: 10px;
     }
   }
 

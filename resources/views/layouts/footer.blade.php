@@ -21,9 +21,9 @@
                 <h5 class="me-5">Reach Us On</h5>
                 <div class="row afooter">
                     <div class="col">
-                        <i class="bi bi-facebook"></i>
-                        <i class="bi bi-whatsapp ms-1"></i>
-                        <i class="bi bi-instagram ms-1"></i>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-whatsapp ms-1"></i></a>
+                        <a href=""><i class="bi bi-instagram ms-1"></i></a>
                     </div>
                 </div>
             </div>

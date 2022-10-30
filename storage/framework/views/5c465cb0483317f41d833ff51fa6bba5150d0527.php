@@ -4,11 +4,9 @@
 <?php $__env->startSection('content'); ?>
     <img class="w-100 img-fluid" src="images/BannerDominique.png" alt="">
 
-    <div class="container mt-2">
+    <div class="container mt-2 fontAll">
 
         <h1 class="text-center mt-2 sizing">Favorite Menu</h1>
-
-
         
             <div class="row d-flex justify-content-center">
                 <?php $__currentLoopData = $listMenu; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>

@@ -20,12 +20,11 @@ Route::get('/menu', [MenuController::class,'indexMenu']);
 
 
 
-
-Route::get('/{id}', function ($id) {
-    // return view('detailMenu', [{{  }}
-    //     'menu' => Menu::detailMenu($id)
-    // ]);
-});
+// Route::get('/{id}', function ($id) {
+//     // return view('detailMenu', [{{  }}
+//     //     'menu' => Menu::detailMenu($id)
+//     // ]);
+// });
 
 // Route::get('/', function () {
 //     return view('welcome');
