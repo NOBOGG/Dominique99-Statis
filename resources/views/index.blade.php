@@ -17,7 +17,7 @@
                         <div class="card-body">
                             <h5 class="card-title">{{$item['namaMenu']}}</h5>
                             
-                            <a href="/{{ $item['id'] }}" class="btn btn-primary">Detail</a>
+                            <a href="/detail/{{ $item['id'] }}" class="btn btn-primary">Detail</a>
                         </div>
                     </div>
                 @endif

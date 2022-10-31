@@ -17,7 +17,7 @@
                         <div class="card-body">
                             <h5 class="card-title"><?php echo e($item['namaMenu']); ?></h5>
                             
-                            <a href="/<?php echo e($item['id']); ?>" class="btn btn-primary">Detail</a>
+                            <a href="/detail/<?php echo e($item['id']); ?>" class="btn btn-primary">Detail</a>
                         </div>
                     </div>
                 <?php endif; ?>

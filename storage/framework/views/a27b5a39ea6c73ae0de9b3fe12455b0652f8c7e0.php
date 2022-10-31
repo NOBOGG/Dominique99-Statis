@@ -9,7 +9,7 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
 
         <div class="container-fluid">
             <a class="navbar-brand nav-link logoText disabled" href="#">
-                <img src="images/Dom_Logo.png" alt="Logo" width="30" height="24"
+                <img src="/images/Dom_Logo.png" alt="Logo" width="30" height="24"
                     class="d-inline-block align-text-top ">
                 Dominique99
             </a>
@@ -34,7 +34,7 @@
                         <a class="nav-link" href="/menu">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="/#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/contact">Contact</a>

@@ -1,7 +1,7 @@
 <div class="footer mt-5">
     <div class="container-fluid footStyling p-3">
         <div class="row">
-            <img class="img-fluid imgfooter" src="images/Dom_Logo.png" alt="" srcset="">
+            <img class="img-fluid imgfooter" src="/images/Dom_Logo.png" alt="" srcset="">
         </div>
         <div class="row">
             <div class="col-lg-5 col-md-5 col-sm-12">

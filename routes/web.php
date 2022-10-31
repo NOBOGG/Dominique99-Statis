@@ -19,7 +19,13 @@ Route::get('/', [MenuController::class,'index']);
 
 Route::get('/menu', [MenuController::class,'indexMenu']);
 
-Route::get('/{id}', [MenuController::class,'indexDetail']);
+Route::get('/detail/{id}', [MenuController::class,'indexDetail']);
+
+Route::get('/contact', function(){
+    return view('contact');
+});
+
+// Route::view('/contact', 'contact');
 
 // Route::get('/', function () {
 //     return view('welcome');

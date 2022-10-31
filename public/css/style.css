@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
 
+html, 
+body {
+    height: 100%;
+}
 .nav{
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   }
@@ -68,7 +72,6 @@
     border: none;
   }
 
-  
   .card .img-wrapper {
       max-width: max-content;
       height: 17em;
@@ -103,6 +106,22 @@
   .footer{
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+  }
+  @media (max-width: 767px) {
+    .footer{
+      color: white;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      position: unset;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: white;
+    }
   }
   
   .imgfooter{
