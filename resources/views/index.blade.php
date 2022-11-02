@@ -6,7 +6,7 @@
 
     <div class="container mt-2 fontAll">
 
-        <h1 class="text-center mt-3 sizing">Favorite Menu</h1>
+        <h1 class="text-center mt-3 ">Favorite Menu</h1>
 
         <div class="row d-flex justify-content-center">
             @foreach ($listMenu as $item)
@@ -24,7 +24,7 @@
             @endforeach
         </div>
 
-        <h1 class="text-center mt-5 sizing">Our Social Media</h1>
+        <h1 class="text-center mt-5 ">Our Social Media</h1>
         <div class="row d-flex justify-content-evenly">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-mc-src="b29c1f71-822c-495b-b27c-af251a68d832#instagram">
             </div>
@@ -33,18 +33,22 @@
                 </a></div>
         </div>
 
-        {{-- <div style="background-image: linear-gradient(rgba(255,153,203,0), rgba(255,153,203,1); height: 200px"></div> --}}
+        <div id=""
+            style="background-image: linear-gradient(rgba(255,153,203,0), rgba(255,153,203,1); height: 200px"></div>
     </div>
     <div class="container-fluid" id="about">
         <div class="row d-flex justify-content-center pt-5" style="background: rgba(255,153,203,1);">
-            
+
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 text-center"> 
-                    <img src="images/fotochef.jpg" class="fotochef img-fluid w-75" alt="">
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                    <img src="images/fotochef.jpg" class="fotochef img-fluid w-75" data-aos="fade-right" alt="">
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 text-white">
+                <div class="col-lg-6 col-md-6 col-sm-12 text-white" data-aos="fade-left">
                     <div class="row">
                         <h1 class="text-white fw-bold" id="aboutTop">Meet The Chef</h1>
+                    </div>
+                    <div class="row">
+
                     </div>
                     <div class="row">
                         <h4>Beatrice Nixie Zhang</h4>
@@ -53,7 +57,8 @@
                         <h4>20 Tahun</h4>
                     </div>
                     <div class="row">
-                        <h4>Saya merupakan Mahasiswa dari Universitas Ciputra di jurusan Culinary Business, Saya membuat dominique ini karena saya suka sekali Cooking and Baking</h4>
+                        <h4>Saya merupakan Mahasiswa dari Universitas Ciputra di jurusan Culinary Business, Saya membuat
+                            dominique ini karena saya suka sekali Cooking and Baking</h4>
                     </div>
                 </div>
             </div>

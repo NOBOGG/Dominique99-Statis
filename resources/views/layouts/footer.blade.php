@@ -7,6 +7,7 @@
             <div class="col-lg-5 col-md-5 col-sm-12">
                 <div class="row">
                     <h5>Delivery Service</h5>
+                    <img class="img-fluid iconGojek" src="/images/gosend.jpg" alt="">
                 </div>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-12">
@@ -21,9 +22,9 @@
                 <h5 class="me-5">Reach Us On</h5>
                 <div class="row afooter">
                     <div class="col">
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-whatsapp ms-1"></i></a>
-                        <a href=""><i class="bi bi-instagram ms-1"></i></a>
+                        <a href="https://it-it.facebook.com/dominique99.id/"><i class="bi bi-facebook"></i></a>
+                        <a href="https://wa.me/082229442338?text=Hello%20Dominique99"><i class="bi bi-whatsapp ms-1"></i></a>
+                        <a href="https://www.instagram.com/dominique99.id"><i class="bi bi-instagram ms-1"></i></a>
                     </div>
                 </div>
             </div>
