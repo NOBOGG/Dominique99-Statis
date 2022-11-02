@@ -24,16 +24,28 @@
                 @endforeach
             </div>
 
-        <h1 class="text-center mt-5 sizing" id="about">Our Social Media</h1>
+        <h1 class="text-center mt-5 sizing">Our Social Media</h1>
         <div class="row d-flex justify-content-evenly" >
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
                 data-mc-src="b29c1f71-822c-495b-b27c-af251a68d832#instagram"></div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><a href="https://linktr.ee/dominique99id">
-                    <img class="img-fluid" src="images/Dom_Logo.png" alt="order">
+                    <img class="img-fluid ltree" src="images/linktree.png" alt="order">
                 </a></div>
         </div>
 
+        
+        </div>
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-center" style="background: #FF99CB" >
+                <h1 class="text-center sizing text-white" id="about">Meet The Chef</h1>
+               <div class="row">
+                    <img src="" alt="">
+               </div>
+        </div>
+        
+
     </div>
+   
     
 
 
