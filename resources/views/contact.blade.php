@@ -15,7 +15,7 @@
         <h2>Our Contact</h2>
         <p>Jl. KH Mansyur No.55 , Kota Probolinggo</p>
         <i class="bi bi-telephone"> 0822 2944 2338</i> <br>
-        <i class="bi bi-envelope">  </i>
+        <i class="bi bi-envelope"> 99dominiqueid@gmail.com </i>
 
     </div>
 
