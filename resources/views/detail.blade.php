@@ -3,9 +3,9 @@
 
 @section('content')
 
-    <div class="container fontAll" >
+    <div class="container fontAll " style="height:75vh;" >
         <div class="row mx-auto">
-            <div class="col-lg-3 col-md-5 col-sm-12">
+            <div class="col-lg-3 col-md-5 col-sm-12 text-center">
                 <img class="imgDetail img-fluid" src="/{{ $detailMenu['fotoMakanan'] }}" alt="">
             </div>
             <div class="col-lg-9 col-md-7 col-sm-12 mt-3">

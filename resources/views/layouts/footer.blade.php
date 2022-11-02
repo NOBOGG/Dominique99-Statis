@@ -1,4 +1,4 @@
-<div class="footer mt-5">
+<div class="footer" style="margin-bottom: auto">
     <div class="container-fluid footStyling p-3">
         <div class="row">
             <img class="img-fluid imgfooter" src="/images/Dom_Logo.png" alt="" srcset="">
