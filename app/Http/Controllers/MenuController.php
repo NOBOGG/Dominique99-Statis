@@ -36,7 +36,8 @@ class MenuController extends Controller
         return view(
             'detail',
             [
-                'detailMenu' => Menu::detailMenu($id)
+                'detailMenu' => Menu::detailMenu($id),
+                'listMenu' => Menu::index()
             ]
         );
     }

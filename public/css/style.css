@@ -130,6 +130,10 @@
       bottom: 0;
       width: 100%;
     }
+
+    #aboutTop{
+      text-align: center;
+    }
   }
   
   .imgfooter{
@@ -146,6 +150,13 @@
     .imgfooter{
             width: 15%; 
     }
+}
+
+.fotochef{
+  width: 20%;
+  height: 80%;
+  border: 1px;
+  border-radius: 100%;
 }
 
 .gmap{

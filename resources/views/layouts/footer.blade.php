@@ -14,7 +14,7 @@
                     <h5>Alamat Toko</h5>
                 </div>
                 <div class="row">
-                    <h6>Jalan K.H.mansyur 55 probolinggo</h6>
+                    <h6>Jalan K.H.mansyur 55, Probolinggo</h6>
                 </div>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-12">
