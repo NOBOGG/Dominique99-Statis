@@ -45,15 +45,15 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 text-white" data-aos="fade-left">
                     <div class="row">
-                        <h1 class="text-white fw-bold" id="aboutTop">Meet The Chef</h1>
+                        <h1 class="text-white fw-bold fontAll" id="aboutTop">Meet The Chef</h1>
                     </div>
-                    <div class="row chefnote">
+                    <div class="row chefnote fontAll">
                         <h4>Beatrice Nixie Zhang</h4>
                     </div>
-                    <div class="row chefnote">
+                    <div class="row chefnote fontAll">
                         <h4>20 Tahun</h4>
                     </div>
-                    <div class="row chefnote">
+                    <div class="row chefnote fontAll">
                         <h4>Saya merupakan Mahasiswa dari Universitas Ciputra di jurusan Culinary Business, Saya membuat
                             dominique ini karena saya suka sekali Cooking and Baking</h4>
                     </div>
