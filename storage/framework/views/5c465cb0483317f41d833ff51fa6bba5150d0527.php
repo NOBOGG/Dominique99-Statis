@@ -47,13 +47,13 @@
                     <div class="row">
                         <h1 class="text-white fw-bold" id="aboutTop">Meet The Chef</h1>
                     </div>
-                    <div class="row">
+                    <div class="row chefnote">
                         <h4>Beatrice Nixie Zhang</h4>
                     </div>
-                    <div class="row">
+                    <div class="row chefnote">
                         <h4>20 Tahun</h4>
                     </div>
-                    <div class="row">
+                    <div class="row chefnote">
                         <h4>Saya merupakan Mahasiswa dari Universitas Ciputra di jurusan Culinary Business, Saya membuat
                             dominique ini karena saya suka sekali Cooking and Baking</h4>
                     </div>
@@ -68,5 +68,4 @@
 
 
 <?php $__env->stopSection(); ?>
-
 <?php echo $__env->make('layouts/mainlayout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\Xampp\htdocs\Laravel Project\webstatisDominique\resources\views/index.blade.php ENDPATH**/ ?>
