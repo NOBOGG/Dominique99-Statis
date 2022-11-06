@@ -2,7 +2,7 @@
 <?php $__env->startSection('title', 'Home'); ?>
 
 <?php $__env->startSection('content'); ?>
-    <img class="w-100 img-fluid" src="images/BannerDominique.png" alt="">
+    <img class="w-100 img-fluid" src="images/Banner_Dom.png" alt="">
 
     <div class="container mt-2 fontAll">
 
@@ -16,7 +16,6 @@
                                 alt="..."> </div>
                         <div class="card-body">
                             <h5 class="card-title"><?php echo e($item['namaMenu']); ?></h5>
-
                             <a href="/detail/<?php echo e($item['id']); ?>" class="btn" style="background: #FAC1B1">Detail</a>
                         </div>
                     </div>

@@ -15,8 +15,8 @@
             </div>
         </div>
         <div class="mt-3 mb-4">
-            <h2 class="fw-bold text-center" style="color: #ad12c8">Find out more {{ $detailMenu['kategori'] }}</h2>
-            <div class="row d-flex justify-content-center" >
+            <h2 class="fw-bold text-center text-sm-center text-md-start " style="color: #ad12c8">Find out more {{ $detailMenu['kategori'] }}</h2>
+            <div class="row findMore justify-content-center justify-content-sm-center justify-content-md-start" >
                 @foreach ($listMenu as $item)
                 @if ($item['id']!=$detailMenu['id'] && $item['kategori']==$detailMenu['kategori'])
                     <div class="card col-lg-3 col-md-3 col-sm-12 text-center" >

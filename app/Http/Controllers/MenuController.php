@@ -24,10 +24,24 @@ class MenuController extends Controller
     }
     public function indexMenu()
     {
+        $menu = Menu::index();
+        if (request()->has('kat')) {
+            // $menu = Makanan::index()->where('kategori', request()->input('tipe', 'halal') === 'halal' ? 1 : 2);
+            if (request()->input('kat', 'Cookies') === 'Cookies') {
+                $menu = Menu::index()->where('kategori', "Cookies");
+            } else if (request()->input('kat', 'Cake') === 'Cake'){
+                $menu = Menu::index()->where('kategori', "Cake");
+            }else if(request()->input('kat', 'Kue Tradisional') === 'Kue Tradisional'){
+                $menu = Menu::index()->where('kategori',"Kue Tradisional");
+            }
+            else {
+                $menu = Menu::index();
+            }
+        }
         return view(
             'menu',
             [
-                'listMenu' => Menu::index()
+                'listMenu' => $menu
             ]
         );
     }
