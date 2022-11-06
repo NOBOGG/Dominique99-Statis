@@ -2,7 +2,7 @@
 @section('title', 'Home')
 
 @section('content')
-    <img class="w-100 img-fluid" src="images/BannerDominique.png" alt="">
+    <img class="w-100 img-fluid" src="images/Banner_Dom.png" alt="">
 
     <div class="container mt-2 fontAll">
 
