@@ -26,7 +26,6 @@ class MenuController extends Controller
     {
         $menu = Menu::index();
         if (request()->has('kat')) {
-            // $menu = Makanan::index()->where('kategori', request()->input('tipe', 'halal') === 'halal' ? 1 : 2);
             if (request()->input('kat', 'Cookies') === 'Cookies') {
                 $menu = Menu::index()->where('kategori', "Cookies");
             } else if (request()->input('kat', 'Cake') === 'Cake'){
